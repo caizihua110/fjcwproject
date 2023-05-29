@@ -1,0 +1,37 @@
+/* .slider{
+    height: 160px;
+}
+.adm-swiper{
+    height: 100%;
+} */
+.slider-item{
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.slider-zx{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #b3b3b3;
+}
+.slidr-time{
+    color: #b3b3b3;
+    font-size: 16px;
+}
+.slider-img{
+    margin-top: 20px;
+}
+.slider-dian{
+    display: inline-block;
+    width: 6px;
+    height:6px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    position: absolute;
+    top: 21.5px;
+    left: 49px;
+}

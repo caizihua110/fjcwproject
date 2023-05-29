@@ -1,0 +1,74 @@
+.vip-home-schedular{
+    width: 100%;
+    height: 147px;
+    border-radius:3px;
+    border: 1px solid rgba(213,163,112,0.5);
+    padding: 0 8px;
+    box-sizing: border-box;
+    background-color: rgb(250, 249, 247);
+    
+}
+.discount-vip-box{
+    height: 40px;
+   width: 100%;
+   
+}
+.discount-vip{
+    overflow: hidden;
+    /* text-align: center; */
+    height: 100%; 
+    line-height: 40px;
+}
+.discount-vip .left{
+    float: left;
+   margin-right: 5px;
+}
+.discount-vip .left img{
+    width: 25px;
+    margin-top: 6px;
+}
+.discount-vip .right{
+    float: right;
+    
+}
+.swiper{
+    height: 107px;
+    border-top: 1px solid #f7eada;
+    overflow: hidden;
+    padding-top: 10px;
+    position: relative;
+}
+.swiper-pic{
+    width: 55px;
+    float: left;
+    margin-right: 8px;
+    
+}
+.swiper-pic img{
+    width: 100%;
+}
+.swiper-conent{
+   margin-top: 5px;
+  
+}
+.swiper-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.swiper-discount .discount{
+    position: absolute;
+    left: -40px;
+    top: -30px;
+    width: 100px;
+}
+.swiper-discount .buy{
+    position: absolute;
+    right: 85px;
+    top: -30px;
+    width: 100px;
+
+}
+.adm-swiper{
+    height: 95px;
+}

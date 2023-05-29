@@ -1,0 +1,70 @@
+.theatre-page{
+    padding: 0 10px;
+}
+.theatre-name{
+    position: fixed;
+    left: 0;top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+.theatre-list{
+    padding-top: 45px;
+}
+.theatre-info{
+    overflow: hidden;
+}
+.theatre-pic{
+    float: left;
+   margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+.theatre-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.more-icon{
+   float: right;
+   top: 50px;
+}
+.slider{
+    margin-top: 10px;
+}
+.slider-item{
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.slider-zx{
+    position: absolute;
+    top: 24px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #b3b3b3;
+}
+.slidr-time{
+    color: #b3b3b3;
+    font-size: 16px;
+}
+.slider-img{
+    margin-top: 20px;
+}
+.slider-dian{
+    display: inline-block;
+    width: 6px;
+    height:6px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    position: absolute;
+    top: 21.5px;
+    left: 49px;
+}

@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-adress{
+    font-weight: 600;
+    margin-right: 5px;
+    height: 30px;
+    width: 80px;
+}
+.header-adress,.header-calendar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.header-calendar{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.header-search{
+    flex: 1;
+}

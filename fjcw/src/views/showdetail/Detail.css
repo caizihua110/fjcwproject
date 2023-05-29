@@ -1,0 +1,141 @@
+
+.detail-page{
+    
+}
+.detail-header-wrap{
+    background-color:#fefefe ;
+}
+.detail-content{
+    display: flex;
+    height: 180px;
+    /* background-color: #bebebe; */
+    /* padding:20px; */
+position: relative;
+}
+.shade-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.08;
+}
+.detail-header{
+    margin-bottom: 10px;
+}
+.detail-content .detail-pic{
+    width: 110px;
+     margin: 10px;
+
+}
+.detail-content .detail-pic img{
+   width: 100%;
+}
+.detail-right{
+    position: relative;
+    flex: 1;
+}
+.title{
+    
+    font-size: 16px;
+    margin-top: 25px;
+    
+}
+.price{
+    position: absolute;
+    left: 0;
+    bottom: 28px;
+    color: red;
+    font-size: 20px;
+}
+.support-type-list{
+  
+
+    display: flex;
+}
+.support-type-item{
+    margin-right: 10px;
+}
+.time{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.address-wrap{
+    padding: 0 10px;
+    /* overflow: hidden; */
+    position: relative;
+}
+.address-info{
+    padding-bottom: 10px;
+}
+.address-icon{
+ position: absolute;
+ right: 10px;
+ top:10px;
+ font-size: 20px;
+ 
+}
+.active-wrap{
+    background-color:#fefefe;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+.youhui{
+    float: left;
+    color: #999999;
+    font-size: 15px;
+}
+.active-info{
+    float: left;
+    margin-left: 12px;
+}
+.active-info-vip{
+    padding-bottom: 5px;
+}
+.more-icon{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 25px;
+}
+.richang{
+    background-color:#fefefe;
+    padding-bottom: 10px;
+}
+.intro-detail{
+    padding:0 10px 35px 10px;
+}
+.intro-detail img{
+    width: 100%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 54px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    /* padding: 0 10px; */
+}
+footer .footer-text{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-buy{
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(50deg, #ff9a34, #ff4d4a);
+    border-radius: 35px;
+    color: #fff;
+    font-size: 18px;
+}

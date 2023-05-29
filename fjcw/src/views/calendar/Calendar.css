@@ -1,0 +1,13 @@
+.calendar-page{
+    height: 100%;
+}
+.navbar{
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+}
+.navbar-moreoutline{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -14.5px;
+}

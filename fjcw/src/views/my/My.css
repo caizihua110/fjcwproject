@@ -1,0 +1,66 @@
+
+.bgc-pic{
+    width: 100%;
+    height: 209px;
+    background: url('https://m.juooo.com/static/img/personal_bg_1.f5fc96c.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.set-icon{
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.my-info{
+    width: 345px;
+    height: 160px;
+    background-color: #F5F5F5;
+    margin: 60px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+}
+.my-pic{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    float: left;
+}
+.my-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.my-login{
+    margin: 8px;
+}
+.my-huiyuan{
+    float: right;
+    color: #B3B3B3;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.my-list{
+    display: flex;
+    margin-top: 40px;
+}
+.item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.my-list1{
+    display: flex;
+    margin-top: 20px;
+}

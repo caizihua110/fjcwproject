@@ -1,0 +1,66 @@
+.show{
+    margin-top: 15px;
+}
+.show .show-title {
+    
+    color: #232323;
+    font-weight: 700;
+    font-size: 20px;
+}
+.show-header{
+    overflow: hidden;
+}
+.show-title{
+    float: left;
+}
+.show-all{
+    float: right;
+}
+.show-swiper{
+    width: 100%;
+    height: 166px;
+    position: relative;
+}
+.show-swiper .swiper-pic{
+    width: 100px;
+    
+}
+.show-swiper .swiper-pic img{
+    width: 100%;
+    border: 1px ;
+    border-radius: 5px;
+}
+.show-swiper .adm-swiper{
+    height: 165px;
+}
+.swiper-discount{
+    position: absolute;
+    left: 106px;
+    top: 88px;
+}
+.city{
+    position: absolute;
+    left: 106px;
+    top: 120px;
+    display: flex;
+    width: 100%;
+}
+.city-num{
+color:#ff6743 ;
+font-size: 13px;
+}
+.city-name{
+   
+    border-right: 1px solid #999;
+    padding: 0 6px;
+}
+.city-name:last-child{
+    border-right: none;
+}
+.city-list{
+    display: flex;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,160 @@
+/* .vip-page{
+    height: 100%;
+    
+} */
+.vip-sider{
+    height: 80px;
+    width: 18px;
+    position: fixed;
+    left: 0;
+    bottom: 80px;
+    border: 1px solid #f4dcc4;
+    background-color: #f4dcc4;
+    display: flex;
+    align-items: center;
+    border-radius: 0 2px 2px 0;
+    justify-content: center;
+    z-index: 1;
+    
+}
+
+.vip-navbar{
+    position: relative; 
+    border-bottom: 1px solid #ebebeb;
+    
+    
+}
+.vip-moreoutline{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -14.5px;
+}
+.vip-desc{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://m.juooo.com/static/img/vip_plus_desc_bg.de74236.png);
+    background-repeat: no-repeat;
+    background-color: #fcfcfc;
+    background-size: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+.vip-title{
+    color: #f4dcc4;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.vip-tool{
+    height:350px;
+    background-color: #fffcf5;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    box-shadow: 0px 2px 5px 1px
+   
+}
+.vip-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.vip-item{
+ width: 25%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 25px ;
+}
+.vip-tool h2{
+    margin-top: 50px;
+    height: 50px;
+    text-align: center;
+    background: linear-gradient(90deg,#FECE9D,#D79A62);
+    color: #85470E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.vip-footer{
+ margin-top: 20px;
+ text-align: center;
+}
+.vip-footer span{
+    margin-right: 10px;
+}
+.vip-discount{
+    position: relative;
+    width: 100%;
+}
+.vip-discount h2{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.right-outline{
+    position: absolute;
+    font-size: 20px;
+    top: 1px;
+    right: 10px;
+}
+.vip-discount-list{
+display: flex;
+flex-wrap:wrap ;
+}
+.vip-discount-item{
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.vip-discount-item .vip-discount-pic img{
+    width: 100%;
+}
+.vip-discount-item .vip-discount-title{
+    width: 100%;
+    display: -webkit-box; /* 将元素设置为一个弹性伸缩盒子容器 */
+    -webkit-box-orient: vertical; /* 设置伸缩盒子容器的排列方式为垂直方向 */
+    text-overflow: ellipsis; /* 文字溢出部分以省略号（...）表示 */
+    overflow: hidden; /* 超出部分不显示 */
+    white-space: normal; /* 设置是否省略文字，normal 表示不省略*/
+    -webkit-line-clamp: 2; /* 显示的行数 */
+    line-height: 1.2; /* 行高 */
+    font-weight: bold;
+    color: #232323;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+.vip-show-more{
+    /* border: 1px solid #D79A62; */
+    color: #D79A62;
+    /* padding: 0 30px; */
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    
+}
+.vip-double-points{
+    height: 253px;
+}
+.vip-double-points img{
+    width: 100%;
+}
+.vip-double-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
